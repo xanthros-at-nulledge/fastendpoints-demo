@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fastapi.api", "fastapi.api\fastapi.api.csproj", "{E5E7C8E7-B0A8-4187-AAA0-F14EBC2228DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5E7C8E7-B0A8-4187-AAA0-F14EBC2228DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5E7C8E7-B0A8-4187-AAA0-F14EBC2228DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5E7C8E7-B0A8-4187-AAA0-F14EBC2228DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5E7C8E7-B0A8-4187-AAA0-F14EBC2228DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
