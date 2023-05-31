@@ -16,6 +16,10 @@ public class GetAllPosts : EndpointWithoutRequest
     {
         Get("/posts");
         AllowAnonymous();
+        Throttle(
+            hitLimit: 120,
+            durationSeconds: 60
+        );
     }
     
     public override async Task HandleAsync(CancellationToken ct)
